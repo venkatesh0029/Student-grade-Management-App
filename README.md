@@ -1,49 +1,74 @@
-Student Grade Management App
+🎓 Student Grade Management App
 
-Description
+🚀 Overview
 
-This is a simple Java-based Student Grade Management application. It allows users to input student scores, calculate grades, and store/retrieve data using file handling.
+The Student Grade Management App is a robust Java-based application designed to streamline student grade calculation and record management. This project is ideal for educators and students who need an efficient and structured system to manage academic scores.
 
-Features
+✨ Features
 
-Calculate student grades based on scores.
+📊 Automated Grade Calculation – Computes grades based on predefined logic.
 
-Read and write student data from files.
+📂 File-Based Storage – Saves and retrieves student data securely.
 
-User-friendly console-based interface.
+🖥 Interactive Console UI – Provides a seamless user experience.
 
-Requirements
+🔧 Modular Codebase – Well-structured classes for easy maintenance.
 
-Java Development Kit (JDK) 8 or later.
+📌 Technologies Used
 
-Installation
+Java – Core programming language.
 
-Clone this repository:
+File Handling – For persistent data storage.
+
+Object-Oriented Design – Ensuring scalability and modularity.
+
+🛠 Installation & Setup
+
+Prerequisites
+
+Ensure you have the following installed:
+
+Java Development Kit (JDK) 8+
+
+Git (optional, for cloning the repository)
+
+Steps to Run
+
+Clone the Repository
 
 git clone <repository-url>
 
-Navigate to the project directory:
+Navigate to the Project Directory
 
 cd Student-grade-Management-App-main
 
-Compile the Java files:
+Compile the Java Files
 
 javac *.java
 
-Run the application:
+Execute the Application
 
 java Main
 
-File Structure
+📂 Project Structure
 
-Main.java - Entry point of the application.
+Student-grade-Management-App-main/
+│── Main.java          # Entry point of the application
+│── GradeCalculator.java  # Logic for computing grades
+│── InputHandler.java  # Handles user inputs
+│── Display.java       # Manages output display
+│── FileHandler.java   # Deals with file operations
+│── LICENSE            # Project licensing information
 
-GradeCalculator.java - Handles grade calculation logic.
+📜 License
 
-InputHandler.java - Manages user inputs.
+This project is licensed under the terms specified in the LICENSE file.
 
-Display.java - Handles output display.
+🤝 Contribution Guidelines
 
-FileHandler.java - Manages file operations.
+🔹 Fork the repository and create a new branch.
+🔹 Implement your feature or fix a bug.
+🔹 Submit a pull request for review.
 
-LICENSE - Project licensing information.
+🔥 Happy Coding!
+
